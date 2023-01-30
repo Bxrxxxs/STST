@@ -13,7 +13,7 @@ local LadderTab = Window:MakeTab({
   PremiumOnly = false
 })
 
-local waitTime = 0.5
+local waitTime = 0.2
 
 LadderTab:AddButton({
   Name = "Retrieve Ladder",
