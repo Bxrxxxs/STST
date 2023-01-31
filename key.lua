@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, IntroText = KEY, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Key sytem", HidePremium = false, SaveConfig = true, IntroText = KEY, ConfigFolder = "OrionTest"})
 
 local keyTab = Window:MakeTab({
 	Name = "Key",
@@ -9,8 +9,8 @@ local keyTab = Window:MakeTab({
 
 keyTab:AddTextbox({
 	Name = "Key",
-	Default = "default box input",
-	TextDisappear = true,
+	Default = "Balls",
+	TextDisappear = false,
 	Callback = function(Value)
 		print(Value)
 	end	  
